@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda creations</title>
+
+  <link rel="shortcut icon" href="images/favi_p-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <img src="images/WhatsApp_Image_2023-07-06_at_03.31.46-removebg-preview.png" class="logo"> -->
+
+      <a href="#" class="logo">Panda creations</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Panda Creation</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Our Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Why choose us</a>
+          </li>
+
+          <li>
+            <a href="quote.html" class="navbar-link" data-nav-link>Quest a qoute</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <button id="signout" class="btn-outline">logout</button>
+      <!-- <a href="quote.html" class="btn-outline">Talk to us</a> -->
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">welcome fellas</p>
+
+            <h1 class="h1 hero-title">Empowering Your Digital Success</h1>
+
+            <p class="hero-text">
+              We're here to help you thrive in the digital 
+              landscape with our creative expertise and innovative solutions.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Check It Out</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">How it works</span>
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./images/pexels-fauxels-3184339.jpg" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <!-- <figure class="about-banner">
+
+              
+          </figure> -->
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">We create some things, Design for your success future.</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
+              the industrys
+              standard dummy text ever.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Price of additional materials or parts (if needed)
+              </li>
+
+              <li class="has-before">
+                Transportation cost for carrying new materials/parts
+              </li>
+
+              <li class="has-before">
+                You will get 100% money back offer.
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Read More</a>
+
+              <!-- <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">10+ Years Experience</span>
+              </button> -->
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">OUR SERVICES</p>
+
+          <h2 class="h2 section-title text-center">Ideas to reality</h2>
+
+          <p class="section-text text-center">
+            Get the most ou of our services. clean and professional work with a good price tag.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./images/Group-1847.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">UI/UX Creative Design</h3>
+
+                  <p class="card-text">
+                    Elevate user experiences with our exceptional UI/UX services. From intuitive designs to seamless interactions,
+                     we create digital solutions that captivate and engage your audience.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./images/web dev1.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Social media management</h3>
+
+                  <p class="card-text">
+                    Amplify your brand's online presence with our comprehensive social media management services. From strategic planning to engaging content creation, we help you connect, engage, 
+                    and grow your audience across various platforms
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./images/Chandigarh-content-img.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Professional Content Writer</h3>
+
+                  <p class="card-text">
+                    Ignite your brand's voice with our exceptional content writing services. Our team of skilled writers crafts compelling and impactful content that resonates with your target audience,
+                     driving engagement and boosting your online visibility.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./images/banner_5-removebg-preview.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    Transform your brand's visual identity with our expert graphics design services. From captivating logos to stunning visuals, we create eye-catching designs that leave a 
+                    lasting impression and effectively communicate your message.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Let us serve you-</p>
+
+          <h2 class="h2 section-title text-center">Why Choose Us</h2>
+
+          <p class="section-text text-center">
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Authentic Designs</h3>
+
+                <p class="card-text">
+                  We offer designs that are carefully and nicely 
+                  crafted to suit your needs. 
+                  there are always mutiple designs to pick from.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Our Track Record</h3>
+
+                <p class="card-text">
+                 We have years+ experience in the industry
+                  and we are known for our exceptional delivery.
+                   we know what we are doing.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Free visual support</h3>
+
+                <p class="card-text">
+                 We render free supervision to any of our client 
+                 that might needs it. we offer mostly visual 
+                 content to help them grow and keep their audience hook.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Advanced Tools</h3>
+
+                <p class="card-text">
+               With the daily advancement of tech,
+                we make use of the best tools to help create quality
+                and exceptional works for our clients.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Quality Images and videos</h3>
+
+                <p class="card-text">
+                  Our visual representations are top nocth because 
+                  that's the first thing your audience see. we use only quality materials to craft our works
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Reasonable Price</h3>
+
+                <p class="card-text">
+                 We offer the best price for what we do. 
+                  our price range for the quality of work we 
+                  do can't be matched. which is why clients keep coming back.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--
+        -testimonials
+      -->
+
+      <div class="header1">
+        <h1>Clients Reviews</h1>
+      </div>
+
+      <div class="container1">
+
+        <div class="card card-112">
+          <img src="images/panda.jpg" alt="photo">
+          <i class="fas fa-quote-left"></i>
+          <p>This digital agency surpassed my expectations 
+            with their exceptional creativity, expertise and results.</p>
+            <p class="name">Aurora</p>
+            <p class="job">interior decor</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+
+       
+
+        <div class="card card-113">
+          <img src="images/WhatsApp Image 2023-07-10 at 12.58.47.jpg" alt="photo">
+          <i class="fas fa-quote-left"></i>
+          <p>Their attention to detail, creativity and strategic
+             approach have truly elevated our brand</p>
+            <p class="name">BuildEasy</p>
+            <p class="job">Real Estate</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+
+        <div class="card card-114">
+          <img src="images/panda 1.jpg" alt="photo">
+          <i class="fas fa-quote-left"></i>
+          <p>They delivered beyond our expectations and successfully 
+            brought our vision to life. 
+            .</p>
+            <p class="name">Lexy's Kitchen</p>
+            <p class="job">Restaurant</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+       
+     
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Frequently Asked Questions?</h2>
+
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01. Curious about how to build your own UX strategy? Here are five simple steps.
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03. What Is a Problem Statement in UX? (And How To Write One?)
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04. There are several techniques UX designers employ to arrive at a succinct?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. What are the obstacles users are facing? What are they trying to do?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">PANDA CREATIONS</a>
+
+          <p class="footer-text"> Subcribe to our newsletter to get all the updates on our lastest products</p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">OUR SERVICES</p>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Product Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">COMPANY</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest Update</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">REACH US</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              lekki epe-express way, lagos state
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+234-811-887-4010</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">Pandacreation@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/designsbypandacreations" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/pandacreations__/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Panda Creation
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms and Conditions</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+ <script src="signout.js"></script>
+
+</body>
+
+</html>

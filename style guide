@@ -1,0 +1,798 @@
+<form action="">
+  <div class="title">
+    <h6>CONTACT</h6>
+  </div>
+  <div class="half">
+    <div class="item">
+      <label for="name">Type your fullname</label>
+      <input type="text" id="name">
+    </div>
+
+
+    <div class="item">
+      <label for="email">Your email address</label>
+      <input type="text" id="email">
+    </div>
+  </div>
+
+  <div class="full">
+    <label for="message">How can we help you?</label>
+    <textarea name="" id="message"></textarea>
+  </div>
+
+  <div class="action">
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+  </div>
+
+</form>
+
+
+
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">PANDA CREATIONS</a>
+
+          <p class="footer-text"> Subcribe to our newsletter to get all the updates on our lastest products</p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">OUR SERVICES</p>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Product Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">COMPANY</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest Update</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">REACH US</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              lekki epe-express way, lagos state
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+234-811-887-4010</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">Pandacreation@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/designsbypandacreations" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/pandacreations__/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Panda Creation
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms and Conditions</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins";
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background: url(images/marios-dessign-orTRtoXlT0k-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form{
+  background: rgb(100, 19, 111);
+  width:640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+form .title h6{
+  letter-spacing: 6px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+background: transparent;
+border-radius: 4px;
+border: 1px solid white;
+outline: 0;
+padding: 12px 16px;
+width: 100%;
+height: 200px;
+font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+}
+
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+  background: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 480px){
+  form .half{
+    flex-direction: column;
+  }
+
+  form .half .item{
+    width: 100%;
+  }
+
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer {
+  background-color: var(--rich-black-fogra-29-2);
+  color: var(--cultured);
+}
+
+.footer-top .container {
+  display: grid;
+  gap: 40px;
+}
+
+.footer .logo { color: var(--white); }
+
+.footer-text { margin-block: 25px; }
+
+.newsletter-form {
+  position: relative;
+  max-width: 350px;
+}
+
+.email-field {
+  color: var(--white);
+  font-size: var(--fs-11);
+  border: 1px solid var(--granite-gray);
+  padding: 15px;
+  border-radius: var(--radius-5);
+}
+
+.footer .form-btn {
+  background-color: rgb(100, 19, 111);
+  color: var(--white);
+  font-size: 24px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  padding-inline: 10px;
+  border-radius: var(--radius-5);
+}
+
+.footer-list-title {
+  font-family: var(--ff-cuprum);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-600);
+  line-height: 1.2;
+  margin-block-end: 25px;
+}
+
+.footer-link {
+  margin-block-start: 15px;
+  transition: var(--transition-1);
+}
+
+.footer-link:is(:hover, :focus) { color: rgb(100, 19, 111); }
+
+.footer-item,
+.social-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-item { margin-block-start: 15px; }
+
+.footer-item > ion-icon {
+  flex-shrink: 0;
+  color: rgb(100, 19, 111);
+  font-size: 20px;
+  margin-block-start: 3px;
+}
+
+.contact-link { transition: var(--transition-1); }
+
+.contact-link:not(.address):is(:hover, :focus) { color: rgb(100, 19, 111); }
+
+.footer-item:last-child {
+  margin-block-start: 25px;
+  padding-block-start: 25px;
+  border-block-start: 1px solid var(--granite-gray);
+}
+
+.social-link {
+  font-size: 14px;
+  border: 1px solid var(--granite-gray);
+  padding: 10px;
+  transition: var(--transition-1);
+}
+
+.social-link:is(:hover, :focus) {
+  background-color: rgb(100, 19, 111);
+  border-color: rgb(100, 19, 111);
+}
+
+.footer-bottom {
+  padding-block: 15px;
+  border-block-start: 1px solid var(--jet);
+}
+
+.copyright {
+  font-size: var(--fs-12);
+  text-align: center;
+  margin-block-end: 15px;
+}
+
+.copyright-link {
+  display: inline-block;
+  color: rgb(100, 19, 111);
+  font-weight: var(--fw-500);
+}
+
+.footer-bottom-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-bottom-link {
+  font-size: var(--fs-11);
+  transition: var(--transition-1);
+}
+
+.footer-bottom-link:is(:hover, :focus) { color: rgb(100, 19, 111); }
+
+
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES 
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 575px screen
+ */
+
+@media (min-width: 575px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 5.4rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .header .container { max-width: unset; }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service .grid-list { grid-template-columns: 1fr 1fr; }
+
+  .service-card { text-align: left; }
+
+  .service-card .card-icon { margin-inline: 0; }
+  
+  .service-card .btn-link { justify-content: flex-start; }
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 768px screen
+ */
+
+@media (min-width: 768px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 7rem;
+    --fs-2: 4rem;
+    --fs-4: 3.5rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container { max-width: 720px; }
+
+  .btn { padding: 16px 32px; }
+
+  .section-text.text-center {
+    max-width: 50ch;
+    margin-inline: auto;
+  }
+
+  .btn-link { --fs-12: 1.4rem; }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero-subtitle { --fs-12: 1.4rem; }
+
+
+
+  /**
+   * FEATURES
+   */
+
+  .features .grid-list { grid-template-columns: 1fr 1fr; }
+
+
+
+  /**
+   * FOOTER
+   */
+
+  .footer-top .container { grid-template-columns: 1fr 1fr; }
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 992px screen
+ */
+
+@media (min-width: 992px) {
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container { max-width: 960px; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .nav-open-btn,
+  .navbar .wrapper,
+  .overlay { display: none; }
+
+  .header { padding: 20px; }
+
+  .navbar,
+  .navbar.active { all: unset; }
+
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .navbar-link {
+    color: var(--rich-black-fogra-29-1);
+    font-weight: var(--fw-500);
+    padding-block: 0;
+  }
+
+  .header .btn-outline {
+    display: block;
+    color: white;
+    background-color: rgb(100, 19, 111);
+    font-weight: var(--fw-600);
+    text-transform: uppercase;
+    border: rgb(100, 19, 111);
+    border-radius: 4px;
+    padding: 7px 18px;
+    transition: var(--transition-1);
+  }
+
+  .header .btn-outline:is(:hover, :focus) {
+    background-color: black;
+    color: var(--white);
+  }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero { text-align: left; }
+
+  .hero .container {
+    grid-template-columns: 1fr 0.7fr;
+    align-items: center;
+  }
+
+  .hero-subtitle { margin-inline: 25px 0; }
+
+  .hero .btn-group { justify-content: flex-start; }
+
+
+
+  /**
+   * ABOUT
+   */
+
+  .about .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+
+
+  /**
+   * FEATURES
+   */
+
+  .features .grid-list { grid-template-columns: repeat(3, 1fr); }
+
+
+
+  /**
+   * FAQ
+   */
+
+  .faq .container {
+    grid-template-columns: 0.48fr 1fr;
+    align-items: flex-start;
+  }
+
+
+
+  /**
+   * FOOTER
+   */
+
+  .footer-top .container { grid-template-columns: 1fr 0.8fr 0.8fr 1fr; }
+
+  .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright { margin-block-end: 0; }
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 1200px screen
+ */
+
+@media (min-width: 1200px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 7.5rem;
+    --fs-4: 3.8rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container { max-width: 1140px; }
+
+  .btn-link { --fs-12: 1.5rem; }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+  }
+
+
+
+  /**
+   * ABOUT
+   */
+
+  .about .container { grid-template-columns: 1fr 0.7fr; }
+
+
+
+  /**
+   * FAQ
+   */
+
+  .faq-card .card-action.active + .card-content { max-height: 200px; }
+
+}
