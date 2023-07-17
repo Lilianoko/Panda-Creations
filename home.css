@@ -239,7 +239,10 @@ body {
   object-fit: cover;
 }
 
-.w-100 { width: 100%; }
+.w-100 {
+   width: 100%;
+   height: 100%;
+   }
 
 .text-center { text-align: center; }
 
@@ -453,14 +456,14 @@ body {
   gap: 30px;
 }
 
-.about-banner { filter: drop-shadow(2px 2px 5px hsla(0, 0%, 0%, 0.08)); }
+.about-banner { filter: drop-shadow(2px 2px 5px rgb(100, 19, 111)); }
 
 .about .section-text { margin-block: 20px 13px; }
 
 .about-list { margin-block-end: 50px; }
 
 .about-list .has-before {
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-cuprum);
   font-size: var(--fs-8);
   font-weight: var(--fw-600);
   padding-inline-start: 20px;
@@ -487,9 +490,9 @@ body {
   font-size: 40px;
 }
 
-.about .btn-group{
-  color: rgb(100, 19, 111);
-  font-family: var(--ff-poppins);
+.about .btn-group .span {
+  color: var(--go-green);
+  font-family: var(--ff-cuprum);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
 }

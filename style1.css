@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Makeup\ inspiration\ for\ black\ women.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Is-It-Hard-To-Become-A-Graphic-Designer-removebg-preview.png);
     background-size: cover;
     background-position: center;
     column-gap: 30px;
@@ -63,7 +63,7 @@ form{
 }
 
 .field input:focus{
-    border-color: #FFA500; 
+    border-color: #000; 
 }
 
 .eye-icon{
@@ -79,13 +79,13 @@ form{
 
 .field button{
     color:#fff;
-    background-color: #FFA500;
+    background-color: #64136f;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .field button:hover{
-    background-color: #FFA500;
+    background-color: rgb(100, 19, 111,);
 }
 
 .form-link{
@@ -102,7 +102,7 @@ form{
 
 .form a {
     text-decoration: none;
-    color: #0171d3;
+    color: #000;
 }
 
 .form-content a:hover{
@@ -111,7 +111,7 @@ form{
 
 .line{
     position: relative;
-    background-color: #d4d4d4;
+    background-color: rgb(100, 19, 111,);
     margin: 36px 0;
     height: 1px;
     width: 100%;
